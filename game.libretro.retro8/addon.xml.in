@@ -18,5 +18,6 @@
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.retro8</source>
 		<summary lang="en_GB">PICO8 (Retro8) 0.1b</summary>
+		<description lang="en_GB">retro8 is an open source implementation of the PICO-8 Fantasy Console.</description>
 	</extension>
 </addon>
