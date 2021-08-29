@@ -18,6 +18,5 @@
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.retro8</source>
 		<summary lang="en_GB">PICO8 (Retro8) 0.1b</summary>
-		<description lang="en_GB"></description>
 	</extension>
 </addon>
