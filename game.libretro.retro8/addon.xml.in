@@ -17,6 +17,12 @@
 		<license>GPLv3</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.retro8</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
 		<summary lang="en_GB">PICO8 (Retro8) 0.1b</summary>
 		<description lang="en_GB">retro8 is an open source implementation of the PICO-8 Fantasy Console.</description>
 	</extension>
