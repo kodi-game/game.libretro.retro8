@@ -23,3 +23,4 @@ msgstr ""
 msgctxt "Addon Description"
 msgid "Retro8 is an open source implementation of the PICO-8 Fantasy Console."
 msgstr ""
+
