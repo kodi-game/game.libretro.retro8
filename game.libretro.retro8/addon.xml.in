@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.retro8"
+		name="PICO8 (Retro8)"
+		version="0.1.0.1"
+		provider-name="jakz">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>p8|png</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.retro8</source>
+		<summary lang="en_GB">PICO8 (Retro8) 0.1b</summary>
+		<description lang="en_GB"></description>
+	</extension>
+</addon>
