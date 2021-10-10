@@ -13,5 +13,5 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kodi, kodi-game-libretro
 Enhances: kodi
-Description: PICO8 (Retro8) core for kodi's retroplayer
- PICO8 (Retro8) core for kodi's retroplayer
+Description: PICO-8 (Retro8) core for kodi's retroplayer
+ PICO-8 (Retro8) core for kodi's retroplayer
