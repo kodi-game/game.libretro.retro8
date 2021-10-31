@@ -1,0 +1,25 @@
+From ba2a05f8eb9e4151e842243e7e663338f38ecddf Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Thu, 28 Oct 2021 20:49:40 -0700
+Subject: [PATCH] Remove "png" from valid extensions
+
+---
+ src/libretro/libretro.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/libretro/libretro.cpp b/src/libretro/libretro.cpp
+index 8942703..718a2f4 100644
+--- a/src/libretro/libretro.cpp
++++ b/src/libretro/libretro.cpp
+@@ -95,7 +95,7 @@ extern "C"
+     info->library_name = "retro-8 (alpha)";
+     info->library_version = "0.1b";
+     info->need_fullpath = false;
+-    info->valid_extensions = "p8|png";
++    info->valid_extensions = "p8";
+   }
+ 
+   void retro_get_system_av_info(retro_system_av_info* info)
+-- 
+2.30.2
+
