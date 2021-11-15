@@ -1,0 +1,47 @@
+From a42dc189b176861aa9ff0aae245b859ff641fcd4 Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Mon, 15 Nov 2021 13:53:45 -0800
+Subject: [PATCH] Fix building with clang 8 for Android
+
+Error was:
+
+  lua_bridge.cpp:675:36: error: unexpected type name 'data_t': expected expression
+    lua_pushnumber(L, std::bit_not<data_t>()(a));
+                                 ^
+  lua_bridge.cpp:675:28: error: no member named 'bit_not' in namespace 'std'
+    lua_pushnumber(L, std::bit_not<data_t>()(a));
+                    ~~~~~^
+  lua_bridge.cpp:675:44: error: expected expression
+    lua_pushnumber(L, std::bit_not<data_t>()(a));
+                                         ^
+---
+ Makefile        | 2 +-
+ Makefile.common | 2 ++
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index a6bdfe2..e131265 100644
+--- a/Makefile
++++ b/Makefile
+@@ -219,7 +219,7 @@ include Makefile.common
+ OBJECTS := $(SOURCES_C:.c=.o) $(SOURCES_CXX:.cpp=.o)
+ 
+ CFLAGS   += -Wall -D__LIBRETRO__ $(fpic) $(INCFLAGS) 
+-CXXFLAGS += -Wall -D__LIBRETRO__ $(fpic) $(INCFLAGS) -std=c++14
++CXXFLAGS += -Wall -D__LIBRETRO__ $(fpic) $(INCFLAGS) -std=c++17
+ 
+ all: $(TARGET)
+ 
+diff --git a/Makefile.common b/Makefile.common
+index 7e5c407..7f651ef 100644
+--- a/Makefile.common
++++ b/Makefile.common
+@@ -22,3 +22,5 @@ SRC_CORE_C  := $(foreach dir,$(SRC_FOLDERS_C), $(wildcard $(dir)/*.c))
+ SOURCES_CXX	:= $(SRC_CORE_CXX)	
+ 
+ SOURCES_C	:= $(SRC_CORE_C)	
++
++CXXFLAGS += -std=c++17
+-- 
+2.30.2
+
