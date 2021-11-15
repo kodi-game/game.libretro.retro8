@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.retro8"
 		name="PICO-8 (Retro8)"
-		version="0.1.0.9"
+		version="0.1.0.10"
 		provider-name="jakz">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
