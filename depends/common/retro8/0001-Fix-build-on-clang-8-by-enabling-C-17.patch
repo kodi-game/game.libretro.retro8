@@ -1,0 +1,27 @@
+From 6dfd1e4bb39956b02153a18055eed5853ae2274d Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Mon, 15 Nov 2021 13:39:35 -0800
+Subject: [PATCH] Fix build on clang 8 by enabling C++17
+
+---
+ Makefile | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index a6bdfe2..e799030 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,8 +2,8 @@ STATIC_LINKING := 0
+ AR             := ar
+ 
+ ifneq ($(SANITIZER),)
+-   CFLAGS   := -fsanitize=$(SANITIZER) $(CFLAGS)
+-   CXXFLAGS := -fsanitize=$(SANITIZER) $(CXXFLAGS)
++   CFLAGS   := -fsanitize=$(SANITIZER) $(CFLAGS) -stdlib=libc++ -std=c++17
++   CXXFLAGS := -fsanitize=$(SANITIZER) $(CXXFLAGS) -stdlib=libc++ -std=c++17
+    LDFLAGS  := -fsanitize=$(SANITIZER) $(LDFLAGS)
+ endif
+ 
+-- 
+2.30.2
+
