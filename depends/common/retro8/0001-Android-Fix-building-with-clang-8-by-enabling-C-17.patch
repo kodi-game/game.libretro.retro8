@@ -1,0 +1,26 @@
+From 8bb76be4f136b66789b3a9d9615f5a28f649cf6c Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Mon, 15 Nov 2021 13:39:35 -0800
+Subject: [PATCH] Android: Fix building with clang 8 by enabling C++17
+
+---
+ jni/Android.mk | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/jni/Android.mk b/jni/Android.mk
+index 2b6cc83..92e0265 100755
+--- a/jni/Android.mk
++++ b/jni/Android.mk
+@@ -8,6 +8,9 @@ include $(CORE_DIR)/Makefile.common
+ 
+ COREFLAGS := -D__LIBRETRO__ -DNOGDB $(INCFLAGS)
+ 
++# Fix build with clang 8
++COREFLAGS += -stdlib=libc++ -std=c++17
++
+ GIT_VERSION := " $(shell git rev-parse --short HEAD || echo unknown)"
+ ifneq ($(GIT_VERSION)," unknown")
+   COREFLAGS += -DGIT_VERSION=\"$(GIT_VERSION)\"
+-- 
+2.30.2
+
