@@ -25,7 +25,7 @@
 			<screenshot>resources/screenshot-03.jpg</screenshot>
 		</assets>
 		<summary lang="en_GB">PICO-8 (Retro8) 0.1b</summary>
-		<description lang="da_DK">Retro8 er en open source-implementering af PICO-8 Fantasy Console.[CR][CR]Meget af PICO-8 API&#x27;en fungerer med god ydeevne, inklusive grundlæggende lyd og musik, selvom den stadig mangler nogle obskure Lua-udvidelses-quirks og fast aritmetisk understøttelse.</description>
+		<description lang="da_DK">Retro8 er en open source-implementering af PICO-8 Fantasy Console.[CR][CR]Meget af PICO-8 API&apos;en fungerer med god ydeevne, inklusive grundlæggende lyd og musik, selvom den stadig mangler nogle obskure Lua-udvidelses-quirks og fast aritmetisk understøttelse.</description>
 		<description lang="en_GB">Retro8 is an open source implementation of the PICO-8 Fantasy Console.[CR][CR]Much of the PICO-8 API is working with good performance, including basic sound and music, though it is still missing some obscure Lua extension quirks and fixed arithmetic support.</description>
 		<description lang="ko_KR">Retro8은 PICO-8 Fantasy Console의 오픈 소스 구현입니다.[CR][CR]PICO-8 API의 많은 부분이 기본 사운드와 음악을 포함하여 좋은 성능으로 동작하고 있지만, 아직 몇 가지 애매한 Lua 확장 기능과 고정 산술 지원이 누락되어 있습니다.</description>
 		<description lang="zh_CN">Retro8 是 PICO-8 Fantasy 主机的开源实现。[CR][CR]PICO-8 API 的大部分性能都很好，包括基本的声音和音乐，尽管它仍然缺少一些模糊的 Lua extension quirks 和定点计算支持。</description>
