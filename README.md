@@ -15,7 +15,7 @@ GPLv3
 
 ### Icon
 
-![Icon](game.libretro.retro8/resources/icon.png)
+![PICO-8 (Retro8) icon](game.libretro.retro8/resources/icon.png)
 
 ### Fanart
 
@@ -23,6 +23,6 @@ Help make me fanart!
 
 ### Screenshots
 
-![Screenshot](game.libretro.retro8/resources/screenshot-01.jpg)
-![Screenshot](game.libretro.retro8/resources/screenshot-02.jpg)
-![Screenshot](game.libretro.retro8/resources/screenshot-03.jpg)
+![PICO-8 (Retro8) screenshot](game.libretro.retro8/resources/screenshot-01.jpg)
+![PICO-8 (Retro8) screenshot](game.libretro.retro8/resources/screenshot-02.jpg)
+![PICO-8 (Retro8) screenshot](game.libretro.retro8/resources/screenshot-03.jpg)
