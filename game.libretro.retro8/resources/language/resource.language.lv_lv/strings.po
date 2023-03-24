@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
 
 msgctxt "Addon Summary"
-msgid "PICO-8 (Retro8) 0.1b"
+msgid "PICO-8 (Retro8)"
 msgstr ""
 
 msgctxt "Addon Description"

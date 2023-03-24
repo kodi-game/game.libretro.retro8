@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Weblate 4.15.2\n"
 
 msgctxt "Addon Summary"
-msgid "PICO-8 (Retro8) 0.1b"
+msgid "PICO-8 (Retro8)"
 msgstr ""
 
 msgctxt "Addon Description"
