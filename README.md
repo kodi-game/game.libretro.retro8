@@ -1,6 +1,3 @@
-[![Build Status](https://travis-ci.org/kodi-game/game.libretro.retro8.svg?branch=master)](https://travis-ci.org/kodi-game/game.libretro.retro8)
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/kodi-game/game.libretro.retro8?svg=true)](https://ci.appveyor.com/project/kodi-game/game-libretro-retro8)
-
 # PICO-8 (Retro8)
 
 ### Description
