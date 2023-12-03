@@ -27,6 +27,7 @@
 		<summary lang="da_DK">PICO-8 (Retro8)</summary>
 		<summary lang="en_GB">PICO-8 (Retro8)</summary>
 		<summary lang="es_ES">PICO-8 (Retro8)</summary>
+		<summary lang="ko_KR">피코-8 (레트로8)</summary>
 		<summary lang="zh_CN">PICO-8 (Retro8)</summary>
 		<description lang="da_DK">Retro8 er en open source-implementering af PICO-8 Fantasy Console.[CR][CR]Meget af PICO-8 API&apos;en fungerer med god ydeevne, inklusive grundlæggende lyd og musik, selvom den stadig mangler nogle obskure Lua-udvidelses-quirks og fast aritmetisk understøttelse.</description>
 		<description lang="de_DE">Retro8 ist eine Open-Source-Implementierung der PICO-8-Fantasy-Konsole.[CR][CR]Ein Großteil der PICO-8-API funktioniert mit guter Performance, einschließlich grundlegender Sound- und Musikfunktionen, allerdings fehlen noch einige obskure Lua-Erweiterungen und feste arithmetische Unterstützung.</description>
