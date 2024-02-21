@@ -1,0 +1,25 @@
+From 02a77d8875c1cde68657c77c2dcd017a942252f2 Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Tue, 20 Feb 2024 16:28:51 -0800
+Subject: [PATCH] Fix hang when printing error message on game load
+
+---
+ src/vm/lua_bridge.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/vm/lua_bridge.cpp b/src/vm/lua_bridge.cpp
+index 25299bc..e513b43 100755
+--- a/src/vm/lua_bridge.cpp
++++ b/src/vm/lua_bridge.cpp
+@@ -1142,7 +1142,7 @@ void Code::printError(const char* where)
+       std::cout << message << std::endl;
+     }
+   }
+-  getchar();
++  //getchar();
+ }
+ 
+ void Code::initFromSource(const std::string& code)
+-- 
+2.34.1
+
