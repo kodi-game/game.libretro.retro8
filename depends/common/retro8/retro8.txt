@@ -1,1 +1,1 @@
-retro8 https://github.com/libretro/retro8/archive/95b40e58c29b829d96f37c85833f9e51730c5534.tar.gz
+retro8 https://github.com/libretro/retro8/archive/c9a3a9791f147043c08a3c8ee42aad231f37fe42.tar.gz
